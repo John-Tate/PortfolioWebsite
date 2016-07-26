@@ -1,0 +1,191 @@
+body {
+  background-color: #00ADFF;
+  /*background-image: url('./img/photo-1422246654994-34520d5a0340.jpeg');*/
+  /*background-size: cover;*/
+}
+.land {
+  /*background-image:url(./img/photo-1422246654994-34520d5a0340.jpeg);*/
+}
+
+.main {
+  background-color: #00ADFF;
+  height: 100vh;
+  opacity: 1;
+}
+
+.hero-name {
+  font-size: 3.5em;
+  font-weight: 700;
+  text-align: right;
+  color: #235789;
+  opacity: 1;
+  line-height: 1;
+}
+
+.hero-area {
+
+}
+.hero-text {
+  color: #F7F7FF;
+  text-align: right;
+  font-weight:700;
+  font-size:2em;
+  margin-top: 0;
+  right: 0;
+}
+.hero-icon {
+  padding-right: 5px;
+}
+.hero-buttons {
+  text-align:center;
+  padding-right:5px;
+}
+
+
+
+main {
+  font-family: 'Exo 2', sans-serif;
+}
+
+/* Buttons */
+
+.btn {
+	letter-spacing: 1px;
+	text-decoration: none;
+	background: none;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+	font-size:14px;
+	line-height:20px;
+	font-weight:700;
+	text-transform:uppercase;
+	border: 3px solid;
+  border-color: #235789;
+  color: #235789;
+	padding:8px 20px;
+  opacity: 0.8;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 1.0;
+  color: #235789;
+}
+
+.simpleNav {
+  text-align: right;
+  margin-top: 1em;
+  margin-right: 0;
+  padding-left: 0;
+
+}
+
+.simpleNav li{
+  list-style: none;
+  display: inline;
+  padding-left: 3px;
+}
+
+.simpleNav a{
+  color: #235789;
+  opacity: 0.7;
+
+}
+.simpleNav a:hover{
+  opacity:1;
+}
+
+@media (min-width: 768px) {
+  .hero-name {
+    font-size: 5em;
+    font-weight: 700;
+    text-align: right;
+    color: #235789;
+    opacity: 1;
+    line-height: 1;
+  }
+
+  .hero-area {
+    margin-top: 30vh;
+  }
+  .hero-text {
+    color: #F7F7FF;
+    text-align: right;
+    font-size:3em;
+  }
+  .simpleNav {
+    text-align: right;
+  }
+  .simpleNav li{
+    list-style: none;
+    display: inline;
+    padding-left: 1em;
+  }
+  .hero-buttons {
+    text-align:right;
+    padding-right:5px;
+  }
+}
+
+/*Masonry*/
+
+.grid{
+  width: 100%;
+}
+.grid-sizer,
+.grid-item {
+  width: 16.666%;
+  height:220px;
+}
+
+.grid .row {
+}
+.stamp {
+  position: absolute;
+  height: 220px;
+}
+.stamp2 {
+  right: 20px;
+  top: 220px;
+  width: 400px;
+  height: 220px;
+}
+
+.grid-item--width2 { width:  33.33%; }
+
+.grid-item--quad {
+  width:33.333%;
+  height: 440px;}
+
+.grid-item--height2 { height: 440px; }
+
+.portitem {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.7;
+  transition: all 0.5s ease;
+}
+
+.portitem span {
+  float:right;
+  position: relative;
+  color:white;
+  font-size: 1.2em;
+  margin-top: 20px;
+  right: 20px;
+  background-color: #00ADFF;
+  opacity: 0.8;
+}
+
+a .portitem:hover {
+  opacity:1;
+}
